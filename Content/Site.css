@@ -1,0 +1,62 @@
+﻿body {
+   background: url('../tranparent.jpeg') center / cover;
+    /*padding-top: 50px;*/
+    padding-bottom: 20px;
+    color: #fff;
+    font: 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-top:60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.layout-transparent {
+                background: url('tranparent.jpeg') center / cover;
+                z-index:initial;
+            }
+
+                .layout-transparent .mdl-layout__header,
+                .layout-transparent .mdl-layout__drawer-button {
+                    /* this background is dark, so we set text to white. use 87% black instead if
+            your background is light. */
+                    color: white;
+                }
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+    color:#000000;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.jumbotron {
+   background: rgb(1, 12, 12); /* This is for ie8 and below */
+   background: rgba(1, 12, 12, 0.3); 
+}
+
